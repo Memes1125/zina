@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="120dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:onClick="onMyClicks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/school_Button"
+        android:layout_width="105dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="96dp"
+        android:background="@android:color/transparent"
+        android:onClick="onMyOnClick"
+        app:layout_constraintBottom_toTopOf="@+id/shop_Button"
+        app:layout_constraintEnd_toEndOf="@+id/home_button"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/home_button"
+        app:srcCompat="@drawable/school" />
+
+    <ImageButton
+        android:id="@+id/shop_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:background="@android:color/transparent"
+        android:onClick="onMyOnMyClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/school_Button"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="@+id/school_Button"
+        app:srcCompat="@drawable/shopp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

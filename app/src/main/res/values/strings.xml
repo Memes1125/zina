@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">zina simuliator</string>
+    <string name="about_text">
+    У лукоморья дуб зелёный;\n
+    Златая цепь на дубе том:\n
+    И днём и ночью <b>кот учёный</b>\n
+    Всё ходит по цепи кругом;\n
+    Идёт <b>направо</b> - песнь заводит,\n
+    <b>Налево</b> - сказку говорит.</string>
+    <string name="about_title">Дом</string>
+
+    <string name="about_school">
+        ф \n
+        б \n
+        в \n
+        г \n
+        д \n
+        е . </string>
+    <string name="about_schooll">Школа</string>
+
+    <string name="about_shop">
+        Иди на хуй \n
+        где маска блять ? \n
+        Гнида ебаная \n </string>
+    <string name="about_shopp">Магазин</string>
+
+
+
+</resources>
